@@ -53,14 +53,24 @@
     },
     "windows": [
       {
-        "title": "PoE Racing Overlay",
-        "label": "overlay",
-        "resizable": false,
+        "title": "Racing Overlay Objectives",
+        "label": "objectives",
+        "resizable": true,
         "transparent": true,
         "decorations": false,
         "alwaysOnTop": true,
-        "width": 200,
-        "height": 400
+        "fullscreen": false,
+        "url": "/index.html#/objectives"
+      },
+      {
+        "title": "Racing Overlay Info",
+        "label": "info",
+        "resizable": true,
+        "transparent": true,
+        "decorations": false,
+        "alwaysOnTop": true,
+        "fullscreen": false,
+        "url": "/index.html#/info"
       }
     ],
     "security": {
